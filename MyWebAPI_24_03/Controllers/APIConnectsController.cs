@@ -22,6 +22,7 @@ namespace MyWebAPI_24_03.Controllers
         }
 
         // GET: api/APIConnects
+        [HttpPost("authenticate")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<APIConnect>>> GetAPIConnectDb()
         {

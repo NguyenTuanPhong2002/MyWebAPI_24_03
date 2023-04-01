@@ -25,7 +25,7 @@ namespace MyWebAPI_24_03.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<APIConnect>>> GetAPIConnectDb()
         {
-          if (_context.APIConnectDb == null)
+          if (_context == null)
           {
               return NotFound();
           }

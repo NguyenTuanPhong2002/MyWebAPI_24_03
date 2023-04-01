@@ -10,12 +10,6 @@ namespace MyWebAPI_24_03.Data
         {
 
         }
-        #region DbSet
-        public DbSet<APIConnect>? APIConnectDb { get; set; }
-        public DbSet<APIData>? APIDataDb { get; set; }
-        public DbSet<APINameClient>? APINameClientDb { get; set; }
-
-        #endregion
     }
 
 }
